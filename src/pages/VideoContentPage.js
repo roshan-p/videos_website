@@ -6,8 +6,6 @@ const VideoContentPage = () => {
   const videoUrl = new URLSearchParams(location.search).get('videoUrl');
   const title = new URLSearchParams(location.search).get('title');
 
-  // You can fetch video data based on the videoId and display it here
-
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <h1>Video Content Page</h1>
